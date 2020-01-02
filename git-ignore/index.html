@@ -5,51 +5,38 @@
 <title>Git 手册之用 .gitignore 忽略文件 - FiTeen's Blog</title>
 <base href="/">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
-<!-- inside/layout/index.ejs -->
-<script type="text/x-mathjax-config">
-MathJax.Hub.Config({
-  showProcessingMessages: false,
-  messageStyle: 'none',
-  tex2jax: {
-    inlineMath: [['$','$']],
-    displayMath: [['$$','$$']]
-  }
-})
-</script>
-<link rel="canonical" href="https://fiteen.top/git-ignore/">
+<link rel="canonical" href="https://blog.fiteen.top/git-ignore/">
 <link rel="icon" type="image/x-icon" href="/favicon.ico">
 
 <meta name="description" content="提交代码后我们经常发现，即使没有任何代码修改，有一些文件也会提示更新，例如：UserInterfaceState.xcuserstate、.DS_Store 等。 这种情况可以通过添加 .gitignore 文件解决。">
 <meta name="keywords" content=".gitignore">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Git 手册之用 .gitignore 忽略文件">
-<meta property="og:url" content="https:&#x2F;&#x2F;fiteen.top&#x2F;git-ignore&#x2F;index.html">
+<meta property="og:url" content="https:&#x2F;&#x2F;blog.fiteen.top&#x2F;git-ignore&#x2F;index.html">
 <meta property="og:site_name" content="FiTeen&#39;s Blog">
 <meta property="og:description" content="提交代码后我们经常发现，即使没有任何代码修改，有一些文件也会提示更新，例如：UserInterfaceState.xcuserstate、.DS_Store 等。 这种情况可以通过添加 .gitignore 文件解决。">
 <meta property="og:locale" content="en">
-<meta property="og:image" content="https:&#x2F;&#x2F;fiteen.top&#x2F;git-ignore&#x2F;avatar.gif">
+<meta property="og:image" content="https:&#x2F;&#x2F;blog.fiteen.top&#x2F;git-ignore&#x2F;avatar.gif">
 <meta property="og:updated_time" content="2019-12-05T03:33:40.688Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https:&#x2F;&#x2F;fiteen.top&#x2F;git-ignore&#x2F;avatar.gif">
+<meta name="twitter:image" content="https:&#x2F;&#x2F;blog.fiteen.top&#x2F;git-ignore&#x2F;avatar.gif">
 
-<script type="application/ld+json">[{"@context":"http://schema.org","@type":"WebSite","publisher":{"@type":"Person","name":"FiTeen","description":"Deer appears only at the deepest of woods. Whale emerges only at the bluest of sea.","image":"https://fiteen.top/avatar.gif"},"url":"https://fiteen.top","image":"https://fiteen.top/avatar.gif","description":"🙈🙉🙊","author":{"@type":"Person","name":"FiTeen","description":"Deer appears only at the deepest of woods. Whale emerges only at the bluest of sea.","image":"https://fiteen.top/avatar.gif"},"inLanguage":{"@type":"Language","alternateName":"en"}},{"@context":"http://schema.org","@type":"Article","articleSection":"Git","url":"https://fiteen.top/git-ignore/","headline":"Git 手册之用 .gitignore 忽略文件","image":"https://fiteen.top/avatar.gif","datePublished":"2016-11-21T17:34:57.000Z","dateModified":"2019-12-05T03:33:40.688Z","keywords":".gitignore","description":"提交代码后我们经常发现，即使没有任何代码修改，有一些文件也会提示更新，例如：UserInterfaceState.xcuserstate、.DS_Store 等。\n这种情况可以通过添加 .gitignore 文件解决。","publisher":{"@type":"Organization","name":"FiTeen's Blog","logo":{"@type":"ImageObject","url":"https://fiteen.top/avatar.gif"}},"author":{"@type":"Person","name":"FiTeen","description":"Deer appears only at the deepest of woods. Whale emerges only at the bluest of sea.","image":"https://fiteen.top/avatar.gif"},"inLanguage":{"@type":"Language","alternateName":"en"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://fiteen.top/git-ignore/"}}]</script>
+<script type="application/ld+json">[{"@context":"http://schema.org","@type":"WebSite","publisher":{"@type":"Person","name":"FiTeen","description":"Deer appears only at the deepest of woods. Whale emerges only at the bluest of sea.","image":"https://blog.fiteen.top/avatar.gif"},"url":"https://blog.fiteen.top","image":"https://blog.fiteen.top/avatar.gif","description":"🙈🙉🙊","author":{"@type":"Person","name":"FiTeen","description":"Deer appears only at the deepest of woods. Whale emerges only at the bluest of sea.","image":"https://blog.fiteen.top/avatar.gif"},"inLanguage":{"@type":"Language","alternateName":"en"}},{"@context":"http://schema.org","@type":"Article","articleSection":"Git","url":"https://blog.fiteen.top/git-ignore/","headline":"Git 手册之用 .gitignore 忽略文件","image":"https://blog.fiteen.top/avatar.gif","datePublished":"2016-11-21T17:34:57.000Z","dateModified":"2019-12-05T03:33:40.688Z","keywords":".gitignore","description":"提交代码后我们经常发现，即使没有任何代码修改，有一些文件也会提示更新，例如：UserInterfaceState.xcuserstate、.DS_Store 等。\n这种情况可以通过添加 .gitignore 文件解决。","publisher":{"@type":"Organization","name":"FiTeen's Blog","logo":{"@type":"ImageObject","url":"https://blog.fiteen.top/avatar.gif"}},"author":{"@type":"Person","name":"FiTeen","description":"Deer appears only at the deepest of woods. Whale emerges only at the bluest of sea.","image":"https://blog.fiteen.top/avatar.gif"},"inLanguage":{"@type":"Language","alternateName":"en"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://blog.fiteen.top/git-ignore/"}}]</script>
 
 
 <link href="//fonts.googleapis.com/css?family=Baloo+Bhaijaan|Inconsolata|Josefin+Sans|Montserrat" rel="stylesheet">
 <link href="/styles.f6e745592a9a46992ff6.css" rel="stylesheet">
 <link rel="stylesheet" href="/theme.d4ea5f780b47fe95b35e.css">
-<script src="/config.2713aea92d8521a4968e.js"></script>
+<script src="/config.b8cebd3b415e48fc3fc1.js"></script>
 
 </head>
 <body lang="en">
 <is-a></is-a>
-<script type="text/x-mathjax-config">MathJax.Hub.Config({
-  showProcessingMessages: false,
-  messageStyle: 'none',
-  tex2jax: { inlineMath: [['s;,'s;], ['\\(','\\)']] }
-})</script>
 <script src="/runtime.ee6f73bc31187f12810a.js"></script>
 <script src="/polyfills.14df1390f4da8e838f05.js"></script>
 <script src="/main.0c926d87f8cb6ab96db0.js"></script>
+<footer>
+
+</footer>
 </body>
 </html>

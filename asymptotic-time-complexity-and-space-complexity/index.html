@@ -5,51 +5,38 @@
 <title>一次搞懂时间复杂度和空间复杂度 - FiTeen's Blog</title>
 <base href="/">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
-<!-- inside/layout/index.ejs -->
-<script type="text/x-mathjax-config">
-MathJax.Hub.Config({
-  showProcessingMessages: false,
-  messageStyle: 'none',
-  tex2jax: {
-    inlineMath: [['$','$']],
-    displayMath: [['$$','$$']]
-  }
-})
-</script>
-<link rel="canonical" href="https://fiteen.top/asymptotic-time-complexity-and-space-complexity/">
+<link rel="canonical" href="https://blog.fiteen.top/asymptotic-time-complexity-and-space-complexity/">
 <link rel="icon" type="image/x-icon" href="/favicon.ico">
 
 <meta name="description" content="学习数据结构和算法时，难免提到时间复杂度（asymptotic time complexity）和空间复杂度（space complexity）的概念。 时间复杂度概念：描述一个算法执行时间与数据规模的增长关系，记作：T(n) &#x3D; O(f(n))。 计算时间复杂度时，需要遵循这一条原则：如果一个算法的执行次数是 T(n)，那么只保留最高次项，同时忽略最高项的系数后得到函数 f(n)，此时时间复杂度">
 <meta name="keywords" content="数据结构">
 <meta property="og:type" content="website">
 <meta property="og:title" content="一次搞懂时间复杂度和空间复杂度">
-<meta property="og:url" content="https:&#x2F;&#x2F;fiteen.top&#x2F;asymptotic-time-complexity-and-space-complexity&#x2F;index.html">
+<meta property="og:url" content="https:&#x2F;&#x2F;blog.fiteen.top&#x2F;asymptotic-time-complexity-and-space-complexity&#x2F;index.html">
 <meta property="og:site_name" content="FiTeen&#39;s Blog">
 <meta property="og:description" content="学习数据结构和算法时，难免提到时间复杂度（asymptotic time complexity）和空间复杂度（space complexity）的概念。 时间复杂度概念：描述一个算法执行时间与数据规模的增长关系，记作：T(n) &#x3D; O(f(n))。 计算时间复杂度时，需要遵循这一条原则：如果一个算法的执行次数是 T(n)，那么只保留最高次项，同时忽略最高项的系数后得到函数 f(n)，此时时间复杂度">
 <meta property="og:locale" content="en">
-<meta property="og:image" content="https:&#x2F;&#x2F;fiteen.top&#x2F;asymptotic-time-complexity-and-space-complexity&#x2F;avatar.gif">
+<meta property="og:image" content="https:&#x2F;&#x2F;blog.fiteen.top&#x2F;asymptotic-time-complexity-and-space-complexity&#x2F;avatar.gif">
 <meta property="og:updated_time" content="2019-12-28T12:23:23.771Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https:&#x2F;&#x2F;fiteen.top&#x2F;asymptotic-time-complexity-and-space-complexity&#x2F;avatar.gif">
+<meta name="twitter:image" content="https:&#x2F;&#x2F;blog.fiteen.top&#x2F;asymptotic-time-complexity-and-space-complexity&#x2F;avatar.gif">
 
-<script type="application/ld+json">[{"@context":"http://schema.org","@type":"WebSite","publisher":{"@type":"Person","name":"FiTeen","description":"Deer appears only at the deepest of woods. Whale emerges only at the bluest of sea.","image":"https://fiteen.top/avatar.gif"},"url":"https://fiteen.top","image":"https://fiteen.top/avatar.gif","description":"🙈🙉🙊","author":{"@type":"Person","name":"FiTeen","description":"Deer appears only at the deepest of woods. Whale emerges only at the bluest of sea.","image":"https://fiteen.top/avatar.gif"},"inLanguage":{"@type":"Language","alternateName":"en"}},{"@context":"http://schema.org","@type":"Article","articleSection":"算法","url":"https://fiteen.top/asymptotic-time-complexity-and-space-complexity/","headline":"一次搞懂时间复杂度和空间复杂度","image":"https://fiteen.top/avatar.gif","datePublished":"2017-01-07T18:17:34.000Z","dateModified":"2019-12-28T12:23:23.771Z","keywords":"数据结构","description":"🙈🙉🙊","publisher":{"@type":"Organization","name":"FiTeen's Blog","logo":{"@type":"ImageObject","url":"https://fiteen.top/avatar.gif"}},"author":{"@type":"Person","name":"FiTeen","description":"Deer appears only at the deepest of woods. Whale emerges only at the bluest of sea.","image":"https://fiteen.top/avatar.gif"},"inLanguage":{"@type":"Language","alternateName":"en"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://fiteen.top/asymptotic-time-complexity-and-space-complexity/"}}]</script>
+<script type="application/ld+json">[{"@context":"http://schema.org","@type":"WebSite","publisher":{"@type":"Person","name":"FiTeen","description":"Deer appears only at the deepest of woods. Whale emerges only at the bluest of sea.","image":"https://blog.fiteen.top/avatar.gif"},"url":"https://blog.fiteen.top","image":"https://blog.fiteen.top/avatar.gif","description":"🙈🙉🙊","author":{"@type":"Person","name":"FiTeen","description":"Deer appears only at the deepest of woods. Whale emerges only at the bluest of sea.","image":"https://blog.fiteen.top/avatar.gif"},"inLanguage":{"@type":"Language","alternateName":"en"}},{"@context":"http://schema.org","@type":"Article","articleSection":"算法","url":"https://blog.fiteen.top/asymptotic-time-complexity-and-space-complexity/","headline":"一次搞懂时间复杂度和空间复杂度","image":"https://blog.fiteen.top/avatar.gif","datePublished":"2017-01-07T18:17:34.000Z","dateModified":"2019-12-28T12:23:23.771Z","keywords":"数据结构","description":"🙈🙉🙊","publisher":{"@type":"Organization","name":"FiTeen's Blog","logo":{"@type":"ImageObject","url":"https://blog.fiteen.top/avatar.gif"}},"author":{"@type":"Person","name":"FiTeen","description":"Deer appears only at the deepest of woods. Whale emerges only at the bluest of sea.","image":"https://blog.fiteen.top/avatar.gif"},"inLanguage":{"@type":"Language","alternateName":"en"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://blog.fiteen.top/asymptotic-time-complexity-and-space-complexity/"}}]</script>
 
 
 <link href="//fonts.googleapis.com/css?family=Baloo+Bhaijaan|Inconsolata|Josefin+Sans|Montserrat" rel="stylesheet">
 <link href="/styles.f6e745592a9a46992ff6.css" rel="stylesheet">
 <link rel="stylesheet" href="/theme.d4ea5f780b47fe95b35e.css">
-<script src="/config.2713aea92d8521a4968e.js"></script>
+<script src="/config.b8cebd3b415e48fc3fc1.js"></script>
 
 </head>
 <body lang="en">
 <is-a></is-a>
-<script type="text/x-mathjax-config">MathJax.Hub.Config({
-  showProcessingMessages: false,
-  messageStyle: 'none',
-  tex2jax: { inlineMath: [['s;,'s;], ['\\(','\\)']] }
-})</script>
 <script src="/runtime.ee6f73bc31187f12810a.js"></script>
 <script src="/polyfills.14df1390f4da8e838f05.js"></script>
 <script src="/main.0c926d87f8cb6ab96db0.js"></script>
+<footer>
+
+</footer>
 </body>
 </html>
