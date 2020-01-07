@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://blog.fiteen.top/teach-you-to-build-a-free-Shadowsocks-service/</loc>
+    <lastmod>2020-01-07</lastmod>
+  </url>  <url>
     <loc>https://blog.fiteen.top/annual-summary-2019/</loc>
     <lastmod>2020-01-06</lastmod>
-  </url>  <url>
-    <loc>https://blog.fiteen.top/teach-you-to-build-a-free-Shadowsocks-service/</loc>
-    <lastmod>2019-12-31</lastmod>
   </url>  <url>
     <loc>https://blog.fiteen.top/asymptotic-time-complexity-and-space-complexity/</loc>
     <lastmod>2019-12-28</lastmod>
