@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://blog.fiteen.top/2016/hello-world/</loc>
+    <lastmod>2020-01-13</lastmod>
+  </url>  <url>
     <loc>https://blog.fiteen.top/2019/hide-ip/</loc>
     <lastmod>2020-01-11</lastmod>
   </url>  <url>
@@ -41,9 +44,6 @@
     <lastmod>2019-12-05</lastmod>
   </url>  <url>
     <loc>https://blog.fiteen.top/2017/how-to-use-IBInspectable-and-IB-DESIGNABLE/</loc>
-    <lastmod>2019-12-05</lastmod>
-  </url>  <url>
-    <loc>https://blog.fiteen.top/2016/hello-world/</loc>
     <lastmod>2019-12-05</lastmod>
   </url>  <url>
     <loc>https://blog.fiteen.top/2016/git-ignore/</loc>
