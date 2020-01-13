@@ -8,26 +8,26 @@
 <link rel="canonical" href="https://blog.fiteen.top/2016/how-to-install-plugins-on-Xcode8/">
 <link rel="icon" type="image/x-icon" href="/favicon.ico">
 
-<meta name="description" content="正式推出 Xcode8 已有两个多月，也有不少朋友分享了安装插件的方法，笔者在这里整理了一个亲测有效的方法。  更新 Xcode，目前最新版本是8.1；  由于安装插件会影响原来的 Xcode 打包上传，我们在应用程序里复制一个 Xcode，并重命名为 XcodeSigner；">
+<meta name="description" content="正式推出 Xcode8 已有两个多月，也有不少朋友分享了安装插件的方法，笔者在这里整理了一个亲测有效的方法。">
 <meta name="keywords" content="Xcode">
 <meta property="og:type" content="website">
 <meta property="og:title" content="如何在 Xcode8上安装插件">
 <meta property="og:url" content="https:&#x2F;&#x2F;blog.fiteen.top&#x2F;2016&#x2F;how-to-install-plugins-on-Xcode8&#x2F;index.html">
 <meta property="og:site_name" content="FiTeen&#39;s Blog">
-<meta property="og:description" content="正式推出 Xcode8 已有两个多月，也有不少朋友分享了安装插件的方法，笔者在这里整理了一个亲测有效的方法。  更新 Xcode，目前最新版本是8.1；  由于安装插件会影响原来的 Xcode 打包上传，我们在应用程序里复制一个 Xcode，并重命名为 XcodeSigner；">
+<meta property="og:description" content="正式推出 Xcode8 已有两个多月，也有不少朋友分享了安装插件的方法，笔者在这里整理了一个亲测有效的方法。">
 <meta property="og:locale" content="en">
 <meta property="og:image" content="https:&#x2F;&#x2F;blog.fiteen.top&#x2F;2016&#x2F;how-to-install-plugins-on-Xcode8&#x2F;avatar.gif">
-<meta property="og:updated_time" content="2019-12-04T12:04:58.978Z">
+<meta property="og:updated_time" content="2020-01-13T09:21:54.619Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https:&#x2F;&#x2F;blog.fiteen.top&#x2F;2016&#x2F;how-to-install-plugins-on-Xcode8&#x2F;avatar.gif">
 
-<script type="application/ld+json">[{"@context":"http://schema.org","@type":"WebSite","publisher":{"@type":"Person","name":"FiTeen","description":"Deer appears only at the deepest of woods. Whale emerges only at the bluest of sea.","image":"https://blog.fiteen.top/avatar.gif"},"url":"https://blog.fiteen.top","image":"https://blog.fiteen.top/avatar.gif","description":"🙈🙉🙊","author":{"@type":"Person","name":"FiTeen","description":"Deer appears only at the deepest of woods. Whale emerges only at the bluest of sea.","image":"https://blog.fiteen.top/avatar.gif"},"inLanguage":{"@type":"Language","alternateName":"en"}},{"@context":"http://schema.org","@type":"Article","articleSection":"技巧","url":"https://blog.fiteen.top/2016/how-to-install-plugins-on-Xcode8/","headline":"如何在 Xcode8上安装插件","image":"https://blog.fiteen.top/avatar.gif","datePublished":"2016-11-30T04:02:20.000Z","dateModified":"2019-12-04T12:04:58.978Z","keywords":"Xcode","description":"正式推出 Xcode8 已有两个多月，也有不少朋友分享了安装插件的方法，笔者在这里整理了一个亲测有效的方法。\n\n更新 Xcode，目前最新版本是8.1；\n\n由于安装插件会影响原来的 Xcode 打包上传，我们在应用程序里复制一个 Xcode，并重命名为 XcodeSigner；","publisher":{"@type":"Organization","name":"FiTeen's Blog","logo":{"@type":"ImageObject","url":"https://blog.fiteen.top/avatar.gif"}},"author":{"@type":"Person","name":"FiTeen","description":"Deer appears only at the deepest of woods. Whale emerges only at the bluest of sea.","image":"https://blog.fiteen.top/avatar.gif"},"inLanguage":{"@type":"Language","alternateName":"en"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://blog.fiteen.top/2016/how-to-install-plugins-on-Xcode8/"}}]</script>
+<script type="application/ld+json">[{"@context":"http://schema.org","@type":"WebSite","publisher":{"@type":"Person","name":"FiTeen","description":"Deer appears only at the deepest of woods. Whale emerges only at the bluest of sea.","image":"https://blog.fiteen.top/avatar.gif"},"url":"https://blog.fiteen.top","image":"https://blog.fiteen.top/avatar.gif","description":"🙈🙉🙊","author":{"@type":"Person","name":"FiTeen","description":"Deer appears only at the deepest of woods. Whale emerges only at the bluest of sea.","image":"https://blog.fiteen.top/avatar.gif"},"inLanguage":{"@type":"Language","alternateName":"en"}},{"@context":"http://schema.org","@type":"Article","articleSection":"技巧","url":"https://blog.fiteen.top/2016/how-to-install-plugins-on-Xcode8/","headline":"如何在 Xcode8上安装插件","image":"https://blog.fiteen.top/avatar.gif","datePublished":"2016-11-30T04:02:20.000Z","dateModified":"2020-01-13T09:21:54.619Z","keywords":"Xcode","description":"正式推出 Xcode8 已有两个多月，也有不少朋友分享了安装插件的方法，笔者在这里整理了一个亲测有效的方法。","publisher":{"@type":"Organization","name":"FiTeen's Blog","logo":{"@type":"ImageObject","url":"https://blog.fiteen.top/avatar.gif"}},"author":{"@type":"Person","name":"FiTeen","description":"Deer appears only at the deepest of woods. Whale emerges only at the bluest of sea.","image":"https://blog.fiteen.top/avatar.gif"},"inLanguage":{"@type":"Language","alternateName":"en"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://blog.fiteen.top/2016/how-to-install-plugins-on-Xcode8/"}}]</script>
 
 
 <link href="//fonts.googleapis.com/css?family=Baloo+Bhaijaan|Inconsolata|Josefin+Sans|Montserrat" rel="stylesheet">
 <link href="/styles.f6e745592a9a46992ff6.css" rel="stylesheet">
 <link rel="stylesheet" href="/theme.74bb0b98d892ac20c2ad.css">
-<script src="/config.03e448ac25b00bf3f3d0.js"></script>
+<script src="/config.75f872102afd57ec037d.js"></script>
 
 </head>
 <body lang="en">
