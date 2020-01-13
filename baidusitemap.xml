@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://blog.fiteen.top/2019/how-to-develop-flutter-projects-more-efficiently/</loc>
+    <lastmod>2020-01-13</lastmod>
+  </url>  <url>
     <loc>https://blog.fiteen.top/2017/iOS-shopping-cart-design-pattern-analysis-and-code-implementation/</loc>
     <lastmod>2020-01-13</lastmod>
   </url>  <url>
@@ -80,9 +83,6 @@
     <lastmod>2019-12-04</lastmod>
   </url>  <url>
     <loc>https://blog.fiteen.top/2019/how-to-use-an-overseas-developer-account-to-upload-an-iOS-app/</loc>
-    <lastmod>2019-12-04</lastmod>
-  </url>  <url>
-    <loc>https://blog.fiteen.top/2019/how-to-develop-flutter-projects-more-efficiently/</loc>
     <lastmod>2019-12-04</lastmod>
   </url>  <url>
     <loc>https://blog.fiteen.top/2017/the-difference-between-the-atomic-and-nonatomic-attributes/</loc>
