@@ -5,29 +5,29 @@
 <title>《Effective Objective-C 2.0》整理（四）：协议与分类 - FiTeen's Blog</title>
 <base href="/">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
-<link rel="canonical" href="https://blog.fiteen.top/2016/EOC2.0-Chapter-4/">
+<link rel="canonical" href="https://blog.fiteen.top/2016/eoc2.0-chapter-4/">
 <link rel="icon" type="image/x-icon" href="/favicon.ico">
 
 <meta name="description" content="第23条：通过委托与数据源协议进行对象间通信Objective-C 开发中广泛使用“委托模式”来实现对象间的通信，该模式的主旨是：定义一套接口，某对象若想接受另一个对象的委托，则需遵从此接口，以便成为其“委托对象”（delegate）。而“另一个对象”则可以给其委托对象回传一些信息，也可以在发生相关事件时通知委托对象。">
 <meta name="keywords" content="《Effective Objective-C 2.0》">
 <meta property="og:type" content="website">
 <meta property="og:title" content="《Effective Objective-C 2.0》整理（四）：协议与分类">
-<meta property="og:url" content="https:&#x2F;&#x2F;blog.fiteen.top&#x2F;2016&#x2F;EOC2.0-Chapter-4&#x2F;index.html">
+<meta property="og:url" content="https:&#x2F;&#x2F;blog.fiteen.top&#x2F;2016&#x2F;eoc2.0-chapter-4&#x2F;index.html">
 <meta property="og:site_name" content="FiTeen&#39;s Blog">
 <meta property="og:description" content="第23条：通过委托与数据源协议进行对象间通信Objective-C 开发中广泛使用“委托模式”来实现对象间的通信，该模式的主旨是：定义一套接口，某对象若想接受另一个对象的委托，则需遵从此接口，以便成为其“委托对象”（delegate）。而“另一个对象”则可以给其委托对象回传一些信息，也可以在发生相关事件时通知委托对象。">
 <meta property="og:locale" content="en">
-<meta property="og:image" content="https:&#x2F;&#x2F;blog.fiteen.top&#x2F;2016&#x2F;EOC2.0-Chapter-4&#x2F;avatar.gif">
+<meta property="og:image" content="https:&#x2F;&#x2F;blog.fiteen.top&#x2F;2016&#x2F;eoc2.0-chapter-4&#x2F;avatar.gif">
 <meta property="og:updated_time" content="2019-12-05T03:29:58.204Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https:&#x2F;&#x2F;blog.fiteen.top&#x2F;2016&#x2F;EOC2.0-Chapter-4&#x2F;avatar.gif">
+<meta name="twitter:image" content="https:&#x2F;&#x2F;blog.fiteen.top&#x2F;2016&#x2F;eoc2.0-chapter-4&#x2F;avatar.gif">
 
-<script type="application/ld+json">[{"@context":"http://schema.org","@type":"WebSite","publisher":{"@type":"Person","name":"FiTeen","description":"Deer appears only at the deepest of woods. Whale emerges only at the bluest of sea.","image":"https://blog.fiteen.top/avatar.gif"},"url":"https://blog.fiteen.top","image":"https://blog.fiteen.top/avatar.gif","description":"🙈🙉🙊","author":{"@type":"Person","name":"FiTeen","description":"Deer appears only at the deepest of woods. Whale emerges only at the bluest of sea.","image":"https://blog.fiteen.top/avatar.gif"},"inLanguage":{"@type":"Language","alternateName":"en"}},{"@context":"http://schema.org","@type":"Article","articleSection":"iOS","url":"https://blog.fiteen.top/2016/EOC2.0-Chapter-4/","headline":"《Effective Objective-C 2.0》整理（四）：协议与分类","image":"https://blog.fiteen.top/avatar.gif","datePublished":"2016-09-28T12:21:06.000Z","dateModified":"2019-12-05T03:29:58.204Z","keywords":"《Effective Objective-C 2.0》","description":"第23条：通过委托与数据源协议进行对象间通信Objective-C 开发中广泛使用“委托模式”来实现对象间的通信，该模式的主旨是：定义一套接口，某对象若想接受另一个对象的委托，则需遵从此接口，以便成为其“委托对象”（delegate）。而“另一个对象”则可以给其委托对象回传一些信息，也可以在发生相关事件时通知委托对象。","publisher":{"@type":"Organization","name":"FiTeen's Blog","logo":{"@type":"ImageObject","url":"https://blog.fiteen.top/avatar.gif"}},"author":{"@type":"Person","name":"FiTeen","description":"Deer appears only at the deepest of woods. Whale emerges only at the bluest of sea.","image":"https://blog.fiteen.top/avatar.gif"},"inLanguage":{"@type":"Language","alternateName":"en"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://blog.fiteen.top/2016/EOC2.0-Chapter-4/"}}]</script>
+<script type="application/ld+json">[{"@context":"http://schema.org","@type":"WebSite","publisher":{"@type":"Person","name":"FiTeen","description":"Deer appears only at the deepest of woods. Whale emerges only at the bluest of sea.","image":"https://blog.fiteen.top/avatar.gif"},"url":"https://blog.fiteen.top","image":"https://blog.fiteen.top/avatar.gif","description":"🙈🙉🙊","author":{"@type":"Person","name":"FiTeen","description":"Deer appears only at the deepest of woods. Whale emerges only at the bluest of sea.","image":"https://blog.fiteen.top/avatar.gif"},"inLanguage":{"@type":"Language","alternateName":"en"}},{"@context":"http://schema.org","@type":"Article","articleSection":"iOS","url":"https://blog.fiteen.top/2016/eoc2.0-chapter-4/","headline":"《Effective Objective-C 2.0》整理（四）：协议与分类","image":"https://blog.fiteen.top/avatar.gif","datePublished":"2016-09-28T12:21:06.000Z","dateModified":"2019-12-05T03:29:58.204Z","keywords":"《Effective Objective-C 2.0》","description":"第23条：通过委托与数据源协议进行对象间通信Objective-C 开发中广泛使用“委托模式”来实现对象间的通信，该模式的主旨是：定义一套接口，某对象若想接受另一个对象的委托，则需遵从此接口，以便成为其“委托对象”（delegate）。而“另一个对象”则可以给其委托对象回传一些信息，也可以在发生相关事件时通知委托对象。","publisher":{"@type":"Organization","name":"FiTeen's Blog","logo":{"@type":"ImageObject","url":"https://blog.fiteen.top/avatar.gif"}},"author":{"@type":"Person","name":"FiTeen","description":"Deer appears only at the deepest of woods. Whale emerges only at the bluest of sea.","image":"https://blog.fiteen.top/avatar.gif"},"inLanguage":{"@type":"Language","alternateName":"en"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://blog.fiteen.top/2016/eoc2.0-chapter-4/"}}]</script>
 
 
 <link href="//fonts.googleapis.com/css?family=Baloo+Bhaijaan|Inconsolata|Josefin+Sans|Montserrat" rel="stylesheet">
 <link href="/styles.f6e745592a9a46992ff6.css" rel="stylesheet">
 <link rel="stylesheet" href="/theme.74bb0b98d892ac20c2ad.css">
-<script src="/config.2d0307f6a53799a0eefc.js"></script>
+<script src="/config.ac8339d635203ae48e8c.js"></script>
 
 </head>
 <body lang="en">

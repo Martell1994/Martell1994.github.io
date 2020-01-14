@@ -1,10 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://blog.fiteen.top/2017/idfa/</loc>
+    <lastmod>2020-01-14</lastmod>
+  </url>  <url>
+    <loc>https://blog.fiteen.top/2018/making-frameworks-and-bundles/</loc>
+    <lastmod>2020-01-14</lastmod>
+  </url>  <url>
+    <loc>https://blog.fiteen.top/2017/how-to-use-ib-inspectable-and-ib-designable/</loc>
+    <lastmod>2020-01-14</lastmod>
+  </url>  <url>
+    <loc>https://blog.fiteen.top/2019/how-to-use-an-overseas-developer-account-to-upload-an-ios-app/</loc>
+    <lastmod>2020-01-14</lastmod>
+  </url>  <url>
+    <loc>https://blog.fiteen.top/2016/how-to-install-plugins-on-xcode8/</loc>
+    <lastmod>2020-01-14</lastmod>
+  </url>  <url>
+    <loc>https://blog.fiteen.top/2016/eoc2.0-chapter-2/</loc>
+    <lastmod>2020-01-14</lastmod>
+  </url>  <url>
+    <loc>https://blog.fiteen.top/2018/debug-webView-on-your-iphone-with-safari/</loc>
+    <lastmod>2020-01-14</lastmod>
+  </url>  <url>
+    <loc>https://blog.fiteen.top/2018/teach-you-to-build-a-free-shadowsocks-service/</loc>
+    <lastmod>2020-01-14</lastmod>
+  </url>  <url>
+    <loc>https://blog.fiteen.top/2019/fucking-swift-ui/</loc>
+    <lastmod>2020-01-14</lastmod>
+  </url>  <url>
+    <loc>https://blog.fiteen.top/2018/set-up-sock5-or-http-proxy-for-git-on-mac/</loc>
+    <lastmod>2020-01-14</lastmod>
+  </url>  <url>
+    <loc>https://blog.fiteen.top/2016/git-ignore/</loc>
+    <lastmod>2020-01-14</lastmod>
+  </url>  <url>
     <loc>https://blog.fiteen.top/2019/how-to-develop-flutter-projects-more-efficiently/</loc>
     <lastmod>2020-01-13</lastmod>
   </url>  <url>
-    <loc>https://blog.fiteen.top/2017/iOS-shopping-cart-design-pattern-analysis-and-code-implementation/</loc>
+    <loc>https://blog.fiteen.top/2017/ios-shopping-cart-design-pattern-analysis-and-code-implementation/</loc>
     <lastmod>2020-01-13</lastmod>
   </url>  <url>
     <loc>https://blog.fiteen.top/2017/annual-summary-2017/</loc>
@@ -13,25 +46,16 @@
     <loc>https://blog.fiteen.top/2016/annual-summary-2016/</loc>
     <lastmod>2020-01-13</lastmod>
   </url>  <url>
-    <loc>https://blog.fiteen.top/2017/algorithm-of-Ali-cloud-live-authentication/</loc>
+    <loc>https://blog.fiteen.top/2017/algorithm-of-ali-cloud-live-authentication/</loc>
     <lastmod>2020-01-13</lastmod>
   </url>  <url>
     <loc>https://blog.fiteen.top/2019/annual-summary-2019/</loc>
     <lastmod>2020-01-13</lastmod>
   </url>  <url>
-    <loc>https://blog.fiteen.top/2018/teach-you-to-build-a-free-Shadowsocks-service/</loc>
-    <lastmod>2020-01-13</lastmod>
-  </url>  <url>
     <loc>https://blog.fiteen.top/2018/annual-summary-2018/</loc>
     <lastmod>2020-01-13</lastmod>
   </url>  <url>
-    <loc>https://blog.fiteen.top/2016/how-to-install-plugins-on-Xcode8/</loc>
-    <lastmod>2020-01-13</lastmod>
-  </url>  <url>
     <loc>https://blog.fiteen.top/2017/asymptotic-time-complexity-and-space-complexity/</loc>
-    <lastmod>2020-01-13</lastmod>
-  </url>  <url>
-    <loc>https://blog.fiteen.top/2019/fucking-swiftUI/</loc>
     <lastmod>2020-01-13</lastmod>
   </url>  <url>
     <loc>https://blog.fiteen.top/2019/oh-hpv/</loc>
@@ -43,34 +67,16 @@
     <loc>https://blog.fiteen.top/2019/hide-ip/</loc>
     <lastmod>2020-01-11</lastmod>
   </url>  <url>
-    <loc>https://blog.fiteen.top/2018/set-up-SOCKS5-or-HTTP-proxy-for-Git-on-Mac/</loc>
-    <lastmod>2020-01-08</lastmod>
-  </url>  <url>
     <loc>https://blog.fiteen.top/2019/sorting-algorithm/</loc>
     <lastmod>2019-12-28</lastmod>
   </url>  <url>
     <loc>https://blog.fiteen.top/2019/solution-of-app-muti-channel-pack/</loc>
     <lastmod>2019-12-28</lastmod>
   </url>  <url>
-    <loc>https://blog.fiteen.top/2018/making-frameworks-and-bundles-in-iOS/</loc>
+    <loc>https://blog.fiteen.top/2016/eoc2.0-chapter-1/</loc>
     <lastmod>2019-12-05</lastmod>
   </url>  <url>
-    <loc>https://blog.fiteen.top/2017/IDFA/</loc>
-    <lastmod>2019-12-05</lastmod>
-  </url>  <url>
-    <loc>https://blog.fiteen.top/2017/how-to-use-IBInspectable-and-IB-DESIGNABLE/</loc>
-    <lastmod>2019-12-05</lastmod>
-  </url>  <url>
-    <loc>https://blog.fiteen.top/2016/git-ignore/</loc>
-    <lastmod>2019-12-05</lastmod>
-  </url>  <url>
-    <loc>https://blog.fiteen.top/2016/EOC2.0-Chapter-2/</loc>
-    <lastmod>2019-12-05</lastmod>
-  </url>  <url>
-    <loc>https://blog.fiteen.top/2016/EOC2.0-Chapter-1/</loc>
-    <lastmod>2019-12-05</lastmod>
-  </url>  <url>
-    <loc>https://blog.fiteen.top/2016/EOC2.0-Chapter-4/</loc>
+    <loc>https://blog.fiteen.top/2016/eoc2.0-chapter-4/</loc>
     <lastmod>2019-12-05</lastmod>
   </url>  <url>
     <loc>https://blog.fiteen.top/2017/class-dump/</loc>
@@ -79,19 +85,13 @@
     <loc>https://blog.fiteen.top/2018/avoid-rm-induced-bloody-cases-under-Mac/</loc>
     <lastmod>2019-12-05</lastmod>
   </url>  <url>
-    <loc>https://blog.fiteen.top/2018/App-Store-review-experience/</loc>
-    <lastmod>2019-12-04</lastmod>
-  </url>  <url>
-    <loc>https://blog.fiteen.top/2019/how-to-use-an-overseas-developer-account-to-upload-an-iOS-app/</loc>
+    <loc>https://blog.fiteen.top/2018/app-store-review-experience/</loc>
     <lastmod>2019-12-04</lastmod>
   </url>  <url>
     <loc>https://blog.fiteen.top/2017/the-difference-between-the-atomic-and-nonatomic-attributes/</loc>
     <lastmod>2019-12-04</lastmod>
   </url>  <url>
-    <loc>https://blog.fiteen.top/2018/debug-webView-on-your-iPhone-with-Safari/</loc>
-    <lastmod>2019-12-04</lastmod>
-  </url>  <url>
-    <loc>https://blog.fiteen.top/2016/EOC2.0-Chapter-3/</loc>
+    <loc>https://blog.fiteen.top/2016/eoc2.0-chapter-3/</loc>
     <lastmod>2019-11-18</lastmod>
   </url>
 </urlset>
