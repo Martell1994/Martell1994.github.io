@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>《Effective Objective-C 2.0》整理（三）：接口与 API 设计 - FiTeen's Blog</title>
+<base href="/">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+<link rel="canonical" href="https://blog.fiteen.top/2016/eoc2.0-3/">
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+
+<meta name="description" content="第15条：用前缀避免命名空间冲突Objective-C 没有其他语言那种内置的命名空间（namespace）机制，我们需要变相实现命名空间。 而 Apple 宣称其保留使用所有“两字母前缀”的权利，因此我们选用的前缀应该是三个字母的，一般选用与公司、应用程序或与二者有关联之名称作为类名的前缀，并在所有代码中均只用这一前缀。">
+<meta name="keywords" content="《Effective Objective-C 2.0》">
+<meta property="og:type" content="website">
+<meta property="og:title" content="《Effective Objective-C 2.0》整理（三）：接口与 API 设计">
+<meta property="og:url" content="https:&#x2F;&#x2F;blog.fiteen.top&#x2F;2016&#x2F;eoc2.0-3&#x2F;index.html">
+<meta property="og:site_name" content="FiTeen&#39;s Blog">
+<meta property="og:description" content="第15条：用前缀避免命名空间冲突Objective-C 没有其他语言那种内置的命名空间（namespace）机制，我们需要变相实现命名空间。 而 Apple 宣称其保留使用所有“两字母前缀”的权利，因此我们选用的前缀应该是三个字母的，一般选用与公司、应用程序或与二者有关联之名称作为类名的前缀，并在所有代码中均只用这一前缀。">
+<meta property="og:locale" content="en">
+<meta property="og:image" content="https:&#x2F;&#x2F;blog.fiteen.top&#x2F;2016&#x2F;eoc2.0-3&#x2F;avatar.gif">
+<meta property="og:updated_time" content="2019-11-18T13:17:40.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https:&#x2F;&#x2F;blog.fiteen.top&#x2F;2016&#x2F;eoc2.0-3&#x2F;avatar.gif">
+
+<script type="application/ld+json">[{"@context":"http://schema.org","@type":"WebSite","publisher":{"@type":"Person","name":"FiTeen","description":"Deer appears only at the deepest of woods. Whale emerges only at the bluest of sea.","image":"https://blog.fiteen.top/avatar.gif"},"url":"https://blog.fiteen.top","image":"https://blog.fiteen.top/avatar.gif","description":"🙈🙉🙊","author":{"@type":"Person","name":"FiTeen","description":"Deer appears only at the deepest of woods. Whale emerges only at the bluest of sea.","image":"https://blog.fiteen.top/avatar.gif"},"inLanguage":{"@type":"Language","alternateName":"en"}},{"@context":"http://schema.org","@type":"Article","articleSection":"iOS","url":"https://blog.fiteen.top/2016/eoc2.0-3/","headline":"《Effective Objective-C 2.0》整理（三）：接口与 API 设计","image":"https://blog.fiteen.top/avatar.gif","datePublished":"2016-09-22T09:55:21.000Z","dateModified":"2019-11-18T13:17:40.000Z","keywords":"《Effective Objective-C 2.0》","description":"第15条：用前缀避免命名空间冲突Objective-C 没有其他语言那种内置的命名空间（namespace）机制，我们需要变相实现命名空间。\n而 Apple 宣称其保留使用所有“两字母前缀”的权利，因此我们选用的前缀应该是三个字母的，一般选用与公司、应用程序或与二者有关联之名称作为类名的前缀，并在所有代码中均只用这一前缀。","publisher":{"@type":"Organization","name":"FiTeen's Blog","logo":{"@type":"ImageObject","url":"https://blog.fiteen.top/avatar.gif"}},"author":{"@type":"Person","name":"FiTeen","description":"Deer appears only at the deepest of woods. Whale emerges only at the bluest of sea.","image":"https://blog.fiteen.top/avatar.gif"},"inLanguage":{"@type":"Language","alternateName":"en"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://blog.fiteen.top/2016/eoc2.0-3/"}}]</script>
+
+
+<link href="//fonts.googleapis.com/css?family=Baloo+Bhaijaan|Inconsolata|Josefin+Sans|Montserrat" rel="stylesheet">
+<link href="/styles.f6e745592a9a46992ff6.css" rel="stylesheet">
+<link rel="stylesheet" href="/theme.74bb0b98d892ac20c2ad.css">
+<script src="/config.945912488ece6957e8b3.js"></script>
+
+</head>
+<body lang="en">
+<is-a></is-a>
+<script src="/runtime.ee6f73bc31187f12810a.js"></script>
+<script src="/polyfills.14df1390f4da8e838f05.js"></script>
+<script src="/main.0c926d87f8cb6ab96db0.js"></script>
+<footer>
+
+</footer>
+</body>
+</html>
