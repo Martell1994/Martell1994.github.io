@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://blog.fiteen.top/2017/class-dump/</loc>
+    <lastmod>2020-01-14</lastmod>
+  </url>  <url>
     <loc>https://blog.fiteen.top/2018/build-a-free-shadowsocks-service/</loc>
     <lastmod>2020-01-14</lastmod>
   </url>  <url>
@@ -77,9 +80,6 @@
     <lastmod>2019-12-05</lastmod>
   </url>  <url>
     <loc>https://blog.fiteen.top/2016/eoc2.0-4/</loc>
-    <lastmod>2019-12-05</lastmod>
-  </url>  <url>
-    <loc>https://blog.fiteen.top/2017/class-dump/</loc>
     <lastmod>2019-12-05</lastmod>
   </url>  <url>
     <loc>https://blog.fiteen.top/2018/avoid-rm-induced-bloody-cases/</loc>
