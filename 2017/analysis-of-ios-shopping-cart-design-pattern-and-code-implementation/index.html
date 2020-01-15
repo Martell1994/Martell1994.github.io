@@ -9,27 +9,33 @@
 <link rel="icon" type="image/x-icon" href="/favicon.ico">
 
 <meta name="description" content="前言早期以淘宝为代表的C2C网站以“入驻店铺”模式强势打破了纯线下的商品交易格局，而近年来，通过不断的尝试与改进，各大电商平台也趋于成熟并自成体系。以京东、聚美优品、网易考拉海购、唯品会、小红书为代表B2C平台也以“自营+入驻店铺”的垂直销售模式进入消费者的视野。但也有不少企业和商家为了避免缴纳高额的入驻保证金和平台年费等，选择开发自己的商城App产品，也就是“自营”模式。">
-<meta name="keywords" content="购物车">
 <meta property="og:type" content="website">
 <meta property="og:title" content="iOS 购物车设计模式浅析及代码实现">
-<meta property="og:url" content="https:&#x2F;&#x2F;blog.fiteen.top&#x2F;2017&#x2F;analysis-of-ios-shopping-cart-design-pattern-and-code-implementation&#x2F;index.html">
+<meta property="og:url" content="https://blog.fiteen.top/2017/analysis-of-ios-shopping-cart-design-pattern-and-code-implementation/index.html">
 <meta property="og:site_name" content="FiTeen&#39;s Blog">
 <meta property="og:description" content="前言早期以淘宝为代表的C2C网站以“入驻店铺”模式强势打破了纯线下的商品交易格局，而近年来，通过不断的尝试与改进，各大电商平台也趋于成熟并自成体系。以京东、聚美优品、网易考拉海购、唯品会、小红书为代表B2C平台也以“自营+入驻店铺”的垂直销售模式进入消费者的视野。但也有不少企业和商家为了避免缴纳高额的入驻保证金和平台年费等，选择开发自己的商城App产品，也就是“自营”模式。">
-<meta property="og:locale" content="en">
-<meta property="og:image" content="https:&#x2F;&#x2F;blog.fiteen.top&#x2F;2017&#x2F;analysis-of-ios-shopping-cart-design-pattern-and-code-implementation&#x2F;2017&#x2F;analysis-of-ios-shopping-cart-design-pattern-and-code-implementation&#x2F;cart.png">
-<meta property="og:updated_time" content="2020-01-13T16:19:31.611Z">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://blog.fiteen.top/2017/analysis-of-ios-shopping-cart-design-pattern-and-code-implementation/2017/analysis-of-ios-shopping-cart-design-pattern-and-code-implementation/cart.png">
+<meta property="article:published_time" content="2017-08-17T01:03:04.000Z">
+<meta property="article:modified_time" content="2020-01-13T16:19:31.611Z">
+<meta property="article:author" content="FiTeen">
+<meta property="article:tag" content="购物车">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https:&#x2F;&#x2F;blog.fiteen.top&#x2F;2017&#x2F;analysis-of-ios-shopping-cart-design-pattern-and-code-implementation&#x2F;2017&#x2F;analysis-of-ios-shopping-cart-design-pattern-and-code-implementation&#x2F;cart.png">
+<meta name="twitter:image" content="https://blog.fiteen.top/2017/analysis-of-ios-shopping-cart-design-pattern-and-code-implementation/2017/analysis-of-ios-shopping-cart-design-pattern-and-code-implementation/cart.png">
 
 <script type="application/ld+json">[{"@context":"http://schema.org","@type":"WebSite","publisher":{"@type":"Person","name":"FiTeen","description":"Deer appears only at the deepest of woods. Whale emerges only at the bluest of sea.","image":"https://blog.fiteen.top/avatar.gif"},"url":"https://blog.fiteen.top","image":"https://blog.fiteen.top/avatar.gif","description":"🙈🙉🙊","author":{"@type":"Person","name":"FiTeen","description":"Deer appears only at the deepest of woods. Whale emerges only at the bluest of sea.","image":"https://blog.fiteen.top/avatar.gif"},"inLanguage":{"@type":"Language","alternateName":"en"}},{"@context":"http://schema.org","@type":"Article","articleSection":"iOS","url":"https://blog.fiteen.top/2017/analysis-of-ios-shopping-cart-design-pattern-and-code-implementation/","headline":"iOS 购物车设计模式浅析及代码实现","image":"2017/analysis-of-ios-shopping-cart-design-pattern-and-code-implementation/cart.png","datePublished":"2017-08-17T01:03:04.000Z","dateModified":"2020-01-13T16:19:31.611Z","keywords":"购物车","description":"前言早期以淘宝为代表的C2C网站以“入驻店铺”模式强势打破了纯线下的商品交易格局，而近年来，通过不断的尝试与改进，各大电商平台也趋于成熟并自成体系。以京东、聚美优品、网易考拉海购、唯品会、小红书为代表B2C平台也以“自营+入驻店铺”的垂直销售模式进入消费者的视野。但也有不少企业和商家为了避免缴纳高额的入驻保证金和平台年费等，选择开发自己的商城App产品，也就是“自营”模式。","publisher":{"@type":"Organization","name":"FiTeen's Blog","logo":{"@type":"ImageObject","url":"https://blog.fiteen.top/avatar.gif"}},"author":{"@type":"Person","name":"FiTeen","description":"Deer appears only at the deepest of woods. Whale emerges only at the bluest of sea.","image":"https://blog.fiteen.top/avatar.gif"},"inLanguage":{"@type":"Language","alternateName":"en"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://blog.fiteen.top/2017/analysis-of-ios-shopping-cart-design-pattern-and-code-implementation/"},"thumbnailUrl":"2017/analysis-of-ios-shopping-cart-design-pattern-and-code-implementation/cart.png"}]</script>
 
 
 <link href="//fonts.googleapis.com/css?family=Baloo+Bhaijaan|Inconsolata|Josefin+Sans|Montserrat" rel="stylesheet">
 <link href="/styles.f6e745592a9a46992ff6.css" rel="stylesheet">
-<link rel="stylesheet" href="/theme.74bb0b98d892ac20c2ad.css">
-<script src="/config.b54c8abfa944ca1920e3.js"></script>
 
-</head>
+<link rel="stylesheet" href="/theme.74bb0b98d892ac20c2ad.css">
+
+
+<script src="/config.ec3588de9d36e382085b.js"></script>
+
+
+<meta name="generator" content="Hexo 4.2.0"></head>
 <body lang="en">
 <is-a></is-a>
 <script src="/runtime.ee6f73bc31187f12810a.js"></script>
