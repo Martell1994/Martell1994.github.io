@@ -8,16 +8,16 @@
 <link rel="canonical" href="https://blog.fiteen.top/2016/eoc2.0-2/">
 <link rel="icon" type="image/x-icon" href="/favicon.ico">
 
-<meta name="description" content="第6条：理解“属性”这一概念实例变量一般通过“存取方法”来访问。  获取方法（getter）：读取变量值 设置方法（setter）：写入变量值">
+<meta name="description" content="第6条：理解“属性”这一概念实例变量一般通过“存取方法”来访问。 获取方法（getter）：读取变量值设置方法（setter）：写入变量值">
 <meta property="og:type" content="website">
 <meta property="og:title" content="《Effective Objective-C 2.0》整理（二）：对象、消息、运行时">
 <meta property="og:url" content="https://blog.fiteen.top/2016/eoc2.0-2/index.html">
 <meta property="og:site_name" content="FiTeen&#39;s Blog">
-<meta property="og:description" content="第6条：理解“属性”这一概念实例变量一般通过“存取方法”来访问。  获取方法（getter）：读取变量值 设置方法（setter）：写入变量值">
+<meta property="og:description" content="第6条：理解“属性”这一概念实例变量一般通过“存取方法”来访问。 获取方法（getter）：读取变量值设置方法（setter）：写入变量值">
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="https://blog.fiteen.top/2016/eoc2.0-2/avatar.gif">
 <meta property="article:published_time" content="2016-09-19T05:20:00.000Z">
-<meta property="article:modified_time" content="2020-01-26T05:49:50.122Z">
+<meta property="article:modified_time" content="2020-01-26T07:27:13.140Z">
 <meta property="article:author" content="FiTeen">
 <meta property="article:tag" content="《Effective Objective-C 2.0》">
 <meta property="article:tag" content="原子性">
@@ -25,16 +25,16 @@
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://blog.fiteen.top/2016/eoc2.0-2/avatar.gif">
 
-<script type="application/ld+json">[{"@context":"http://schema.org","@type":"WebSite","publisher":{"@type":"Person","name":"FiTeen","description":"Deer appears only at the deepest of woods. Whale emerges only at the bluest of sea.","image":"https://blog.fiteen.top/avatar.gif"},"url":"https://blog.fiteen.top","image":"https://blog.fiteen.top/avatar.gif","description":"🙈🙉🙊","author":{"@type":"Person","name":"FiTeen","description":"Deer appears only at the deepest of woods. Whale emerges only at the bluest of sea.","image":"https://blog.fiteen.top/avatar.gif"},"inLanguage":{"@type":"Language","alternateName":"en"}},{"@context":"http://schema.org","@type":"Article","articleSection":"iOS","url":"https://blog.fiteen.top/2016/eoc2.0-2/","headline":"《Effective Objective-C 2.0》整理（二）：对象、消息、运行时","image":"https://blog.fiteen.top/avatar.gif","datePublished":"2016-09-19T05:20:00.000Z","dateModified":"2020-01-26T05:49:50.122Z","keywords":"《Effective Objective-C 2.0》,原子性,objc_msgSend","description":"第6条：理解“属性”这一概念实例变量一般通过“存取方法”来访问。\n\n获取方法（getter）：读取变量值\n设置方法（setter）：写入变量值\n","publisher":{"@type":"Organization","name":"FiTeen's Blog","logo":{"@type":"ImageObject","url":"https://blog.fiteen.top/avatar.gif"}},"author":{"@type":"Person","name":"FiTeen","description":"Deer appears only at the deepest of woods. Whale emerges only at the bluest of sea.","image":"https://blog.fiteen.top/avatar.gif"},"inLanguage":{"@type":"Language","alternateName":"en"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://blog.fiteen.top/2016/eoc2.0-2/"}}]</script>
+<script type="application/ld+json">[{"@context":"http://schema.org","@type":"WebSite","publisher":{"@type":"Person","name":"FiTeen","description":"Deer appears only at the deepest of woods. Whale emerges only at the bluest of sea.","image":"https://blog.fiteen.top/avatar.gif"},"url":"https://blog.fiteen.top","image":"https://blog.fiteen.top/avatar.gif","description":"🙈🙉🙊","author":{"@type":"Person","name":"FiTeen","description":"Deer appears only at the deepest of woods. Whale emerges only at the bluest of sea.","image":"https://blog.fiteen.top/avatar.gif"},"inLanguage":{"@type":"Language","alternateName":"en"}},{"@context":"http://schema.org","@type":"Article","articleSection":"iOS","url":"https://blog.fiteen.top/2016/eoc2.0-2/","headline":"《Effective Objective-C 2.0》整理（二）：对象、消息、运行时","image":"https://blog.fiteen.top/avatar.gif","datePublished":"2016-09-19T05:20:00.000Z","dateModified":"2020-01-26T07:27:13.140Z","keywords":"《Effective Objective-C 2.0》,原子性,objc_msgSend","description":"第6条：理解“属性”这一概念实例变量一般通过“存取方法”来访问。\n获取方法（getter）：读取变量值设置方法（setter）：写入变量值","publisher":{"@type":"Organization","name":"FiTeen's Blog","logo":{"@type":"ImageObject","url":"https://blog.fiteen.top/avatar.gif"}},"author":{"@type":"Person","name":"FiTeen","description":"Deer appears only at the deepest of woods. Whale emerges only at the bluest of sea.","image":"https://blog.fiteen.top/avatar.gif"},"inLanguage":{"@type":"Language","alternateName":"en"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://blog.fiteen.top/2016/eoc2.0-2/"}}]</script>
 
 
 <link href="//fonts.googleapis.com/css?family=Baloo+Bhaijaan|Inconsolata|Josefin+Sans|Montserrat" rel="stylesheet">
-<link href="/styles.f6e745592a9a46992ff6.css" rel="stylesheet">
+<link href="/styles.e4da61f53c7bc99becf4.css" rel="stylesheet">
 
-<link rel="stylesheet" href="/theme.74bb0b98d892ac20c2ad.css">
+<link rel="stylesheet" href="/theme.c4db218f653a342e6584.css">
 
 
-<script src="/config.2f2fe91a783f6be8ddab.js"></script>
+<script src="/config.435efc5a978885ce939b.js"></script>
 
 
 <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js">
@@ -44,8 +44,6 @@
 <is-a></is-a>
 <script src="/runtime.ee6f73bc31187f12810a.js"></script>
 <script src="/polyfills.14df1390f4da8e838f05.js"></script>
-<script src="/main.0c926d87f8cb6ab96db0.js"></script>
-<footer>
-</footer>
+<script src="/main.d458ff11c3565b982fe7.js"></script>
 </body>
 </html>
