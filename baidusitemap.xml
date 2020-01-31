@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://blog.fiteen.top/2020/hexo-theme-inside-plugin/</loc>
+    <lastmod>2020-01-31</lastmod>
+  </url>  <url>
+    <loc>https://blog.fiteen.top/2019/how-to-use-an-overseas-developer-account-to-launch-an-ios-app/</loc>
+    <lastmod>2020-01-30</lastmod>
+  </url>  <url>
+    <loc>https://blog.fiteen.top/2019/hide-ip/</loc>
+    <lastmod>2020-01-30</lastmod>
+  </url>  <url>
     <loc>https://blog.fiteen.top/2017/what-is-idfa/</loc>
     <lastmod>2020-01-29</lastmod>
   </url>  <url>
@@ -34,13 +43,7 @@
     <loc>https://blog.fiteen.top/2017/how-to-use-ib-inspectable-and-ib-designable/</loc>
     <lastmod>2020-01-29</lastmod>
   </url>  <url>
-    <loc>https://blog.fiteen.top/2019/how-to-use-an-overseas-developer-account-to-launch-an-ios-app/</loc>
-    <lastmod>2020-01-29</lastmod>
-  </url>  <url>
     <loc>https://blog.fiteen.top/2019/how-to-develop-flutter-projects-more-efficiently/</loc>
-    <lastmod>2020-01-29</lastmod>
-  </url>  <url>
-    <loc>https://blog.fiteen.top/2019/hide-ip/</loc>
     <lastmod>2020-01-29</lastmod>
   </url>  <url>
     <loc>https://blog.fiteen.top/2016/git-ignore/</loc>
