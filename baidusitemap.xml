@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://blog.fiteen.top/2018/making-frameworks-and-bundles/</loc>
+    <lastmod>2020-02-08</lastmod>
+  </url>  <url>
     <loc>https://blog.fiteen.top/2020/hexo-theme-inside-plugin/</loc>
     <lastmod>2020-02-08</lastmod>
   </url>  <url>
@@ -35,9 +38,6 @@
     <lastmod>2020-01-29</lastmod>
   </url>  <url>
     <loc>https://blog.fiteen.top/2018/review-experience/</loc>
-    <lastmod>2020-01-29</lastmod>
-  </url>  <url>
-    <loc>https://blog.fiteen.top/2018/making-frameworks-and-bundles/</loc>
     <lastmod>2020-01-29</lastmod>
   </url>  <url>
     <loc>https://blog.fiteen.top/2019/make-badge-via-shields-io/</loc>
