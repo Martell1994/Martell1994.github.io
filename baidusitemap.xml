@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://blog.fiteen.top/2016/install-plugins-on-xcode8/</loc>
-    <lastmod>2020-02-09</lastmod>
-  </url>  <url>
     <loc>https://blog.fiteen.top/2020/hexo-theme-inside-plugin/</loc>
+    <lastmod>2020-02-10</lastmod>
+  </url>  <url>
+    <loc>https://blog.fiteen.top/2016/install-plugins-on-xcode8/</loc>
     <lastmod>2020-02-09</lastmod>
   </url>  <url>
     <loc>https://blog.fiteen.top/2019/make-badge-via-shields-io/</loc>
