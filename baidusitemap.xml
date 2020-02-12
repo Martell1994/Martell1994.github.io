@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://blog.fiteen.top/2018/ios-runtime/</loc>
+    <loc>https://blog.fiteen.top/2020/ios-runtime/</loc>
     <lastmod>2020-02-12</lastmod>
   </url>  <url>
     <loc>https://blog.fiteen.top/2016/eoc2.0-2/</loc>
@@ -73,10 +73,10 @@
     <loc>https://blog.fiteen.top/2019/fucking-swift-ui/</loc>
     <lastmod>2020-02-11</lastmod>
   </url>  <url>
-    <loc>https://blog.fiteen.top/2016/eoc2.0-3/</loc>
+    <loc>https://blog.fiteen.top/2016/eoc2.0-4/</loc>
     <lastmod>2020-02-11</lastmod>
   </url>  <url>
-    <loc>https://blog.fiteen.top/2016/eoc2.0-4/</loc>
+    <loc>https://blog.fiteen.top/2016/eoc2.0-3/</loc>
     <lastmod>2020-02-11</lastmod>
   </url>  <url>
     <loc>https://blog.fiteen.top/2016/eoc2.0-1/</loc>
@@ -103,10 +103,10 @@
     <loc>https://blog.fiteen.top/2016/annual-summary-2016/</loc>
     <lastmod>2020-02-11</lastmod>
   </url>  <url>
-    <loc>https://blog.fiteen.top/2017/ali-cloud-live-authentication-algorithm/</loc>
+    <loc>https://blog.fiteen.top/2017/analysis-of-ios-shopping-cart-design-pattern-and-code-implementation/</loc>
     <lastmod>2020-02-11</lastmod>
   </url>  <url>
-    <loc>https://blog.fiteen.top/2017/analysis-of-ios-shopping-cart-design-pattern-and-code-implementation/</loc>
+    <loc>https://blog.fiteen.top/2017/ali-cloud-live-authentication-algorithm/</loc>
     <lastmod>2020-02-11</lastmod>
   </url>
 </urlset>
