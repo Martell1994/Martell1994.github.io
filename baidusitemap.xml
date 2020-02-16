@@ -1,8 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://blog.fiteen.top/2020/ios-app-signature/</loc>
+    <lastmod>2020-02-16</lastmod>
+  </url>  <url>
+    <loc>https://blog.fiteen.top/2019/solution-of-app-muti-channel-pack/</loc>
+    <lastmod>2020-02-14</lastmod>
+  </url>  <url>
+    <loc>https://blog.fiteen.top/2019/make-badge-via-shields-io/</loc>
+    <lastmod>2020-02-14</lastmod>
+  </url>  <url>
+    <loc>https://blog.fiteen.top/2019/how-to-develop-flutter-projects-more-efficiently/</loc>
+    <lastmod>2020-02-14</lastmod>
+  </url>  <url>
     <loc>https://blog.fiteen.top/2020/ios-runtime/</loc>
-    <lastmod>2020-02-12</lastmod>
+    <lastmod>2020-02-14</lastmod>
   </url>  <url>
     <loc>https://blog.fiteen.top/2016/eoc2.0-2/</loc>
     <lastmod>2020-02-12</lastmod>
@@ -34,9 +46,6 @@
     <loc>https://blog.fiteen.top/2019/sorting-algorithm/</loc>
     <lastmod>2020-02-11</lastmod>
   </url>  <url>
-    <loc>https://blog.fiteen.top/2019/solution-of-app-muti-channel-pack/</loc>
-    <lastmod>2020-02-11</lastmod>
-  </url>  <url>
     <loc>https://blog.fiteen.top/2018/set-up-sock5-or-http-proxy-for-git-on-mac/</loc>
     <lastmod>2020-02-11</lastmod>
   </url>  <url>
@@ -49,16 +58,10 @@
     <loc>https://blog.fiteen.top/2018/making-frameworks-and-bundles/</loc>
     <lastmod>2020-02-11</lastmod>
   </url>  <url>
-    <loc>https://blog.fiteen.top/2019/make-badge-via-shields-io/</loc>
-    <lastmod>2020-02-11</lastmod>
-  </url>  <url>
     <loc>https://blog.fiteen.top/2017/how-to-use-ib-inspectable-and-ib-designable/</loc>
     <lastmod>2020-02-11</lastmod>
   </url>  <url>
     <loc>https://blog.fiteen.top/2019/how-to-use-an-overseas-developer-account-to-launch-an-ios-app/</loc>
-    <lastmod>2020-02-11</lastmod>
-  </url>  <url>
-    <loc>https://blog.fiteen.top/2019/how-to-develop-flutter-projects-more-efficiently/</loc>
     <lastmod>2020-02-11</lastmod>
   </url>  <url>
     <loc>https://blog.fiteen.top/2019/hide-ip/</loc>
@@ -73,10 +76,10 @@
     <loc>https://blog.fiteen.top/2019/fucking-swift-ui/</loc>
     <lastmod>2020-02-11</lastmod>
   </url>  <url>
-    <loc>https://blog.fiteen.top/2016/eoc2.0-4/</loc>
+    <loc>https://blog.fiteen.top/2016/eoc2.0-3/</loc>
     <lastmod>2020-02-11</lastmod>
   </url>  <url>
-    <loc>https://blog.fiteen.top/2016/eoc2.0-3/</loc>
+    <loc>https://blog.fiteen.top/2016/eoc2.0-4/</loc>
     <lastmod>2020-02-11</lastmod>
   </url>  <url>
     <loc>https://blog.fiteen.top/2016/eoc2.0-1/</loc>
