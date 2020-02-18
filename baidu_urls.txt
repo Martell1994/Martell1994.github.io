@@ -33,5 +33,6 @@ https://blog.fiteen.top/2016/git-ignore/
 https://blog.fiteen.top/2016/eoc2.0-4/
 https://blog.fiteen.top/2016/eoc2.0-3/
 https://blog.fiteen.top/2016/eoc2.0-2/
+https://blog.fiteen.top/2016/new-in-xcode8/
 https://blog.fiteen.top/2016/eoc2.0-1/
 https://blog.fiteen.top/2016/hello-world/
