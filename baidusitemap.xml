@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://blog.fiteen.top/2019/make-badge-via-shields-io/</loc>
+    <lastmod>2020-02-18</lastmod>
+  </url>  <url>
+    <loc>https://blog.fiteen.top/2019/solution-of-app-muti-channel-pack/</loc>
+    <lastmod>2020-02-18</lastmod>
+  </url>  <url>
     <loc>https://blog.fiteen.top/2018/making-frameworks-and-bundles/</loc>
     <lastmod>2020-02-18</lastmod>
   </url>  <url>
@@ -10,14 +16,8 @@
     <loc>https://blog.fiteen.top/2016/install-plugins-on-xcode8/</loc>
     <lastmod>2020-02-18</lastmod>
   </url>  <url>
-    <loc>https://blog.fiteen.top/2019/solution-of-app-muti-channel-pack/</loc>
-    <lastmod>2020-02-16</lastmod>
-  </url>  <url>
     <loc>https://blog.fiteen.top/2020/ios-app-signature/</loc>
     <lastmod>2020-02-16</lastmod>
-  </url>  <url>
-    <loc>https://blog.fiteen.top/2019/make-badge-via-shields-io/</loc>
-    <lastmod>2020-02-14</lastmod>
   </url>  <url>
     <loc>https://blog.fiteen.top/2019/how-to-develop-flutter-projects-more-efficiently/</loc>
     <lastmod>2020-02-14</lastmod>
