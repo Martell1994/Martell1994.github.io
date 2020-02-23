@@ -1,6 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://blog.fiteen.top/2016/install-plugins-on-xcode8/</loc>
+    <lastmod>2020-02-23</lastmod>
+  </url>  <url>
+    <loc>https://blog.fiteen.top/2020/ios-app-signature/</loc>
+    <lastmod>2020-02-23</lastmod>
+  </url>  <url>
+    <loc>https://blog.fiteen.top/2020/ios-memory-leak/</loc>
+    <lastmod>2020-02-23</lastmod>
+  </url>  <url>
+    <loc>https://blog.fiteen.top/2020/ios-runtime/</loc>
+    <lastmod>2020-02-23</lastmod>
+  </url>  <url>
+    <loc>https://blog.fiteen.top/2019/make-badge-via-shields-io/</loc>
+    <lastmod>2020-02-23</lastmod>
+  </url>  <url>
+    <loc>https://blog.fiteen.top/2018/making-frameworks-and-bundles/</loc>
+    <lastmod>2020-02-23</lastmod>
+  </url>  <url>
+    <loc>https://blog.fiteen.top/2016/new-in-xcode8/</loc>
+    <lastmod>2020-02-23</lastmod>
+  </url>  <url>
+    <loc>https://blog.fiteen.top/2019/oh-hpv/</loc>
+    <lastmod>2020-02-23</lastmod>
+  </url>  <url>
+    <loc>https://blog.fiteen.top/2020/red-black-tree/</loc>
+    <lastmod>2020-02-23</lastmod>
+  </url>  <url>
+    <loc>https://blog.fiteen.top/2018/review-experience/</loc>
+    <lastmod>2020-02-23</lastmod>
+  </url>  <url>
+    <loc>https://blog.fiteen.top/2018/set-up-sock5-or-http-proxy-for-git-on-mac/</loc>
+    <lastmod>2020-02-23</lastmod>
+  </url>  <url>
+    <loc>https://blog.fiteen.top/2019/solution-of-app-muti-channel-pack/</loc>
+    <lastmod>2020-02-23</lastmod>
+  </url>  <url>
+    <loc>https://blog.fiteen.top/2019/sorting-algorithm/</loc>
+    <lastmod>2020-02-23</lastmod>
+  </url>  <url>
+    <loc>https://blog.fiteen.top/2017/the-difference-between-the-atomic-and-nonatomic-attributes/</loc>
+    <lastmod>2020-02-23</lastmod>
+  </url>  <url>
+    <loc>https://blog.fiteen.top/2017/what-is-idfa/</loc>
+    <lastmod>2020-02-23</lastmod>
+  </url>  <url>
+    <loc>https://blog.fiteen.top/2017/xcode-clean/</loc>
+    <lastmod>2020-02-23</lastmod>
+  </url>  <url>
     <loc>https://blog.fiteen.top/2017/ali-cloud-live-authentication-algorithm/</loc>
     <lastmod>2020-02-23</lastmod>
   </url>  <url>
@@ -68,54 +116,6 @@
     <lastmod>2020-02-23</lastmod>
   </url>  <url>
     <loc>https://blog.fiteen.top/2017/how-to-use-ib-inspectable-and-ib-designable/</loc>
-    <lastmod>2020-02-23</lastmod>
-  </url>  <url>
-    <loc>https://blog.fiteen.top/2016/install-plugins-on-xcode8/</loc>
-    <lastmod>2020-02-23</lastmod>
-  </url>  <url>
-    <loc>https://blog.fiteen.top/2020/ios-app-signature/</loc>
-    <lastmod>2020-02-23</lastmod>
-  </url>  <url>
-    <loc>https://blog.fiteen.top/2020/ios-memory-leak/</loc>
-    <lastmod>2020-02-23</lastmod>
-  </url>  <url>
-    <loc>https://blog.fiteen.top/2020/ios-runtime/</loc>
-    <lastmod>2020-02-23</lastmod>
-  </url>  <url>
-    <loc>https://blog.fiteen.top/2019/make-badge-via-shields-io/</loc>
-    <lastmod>2020-02-23</lastmod>
-  </url>  <url>
-    <loc>https://blog.fiteen.top/2018/making-frameworks-and-bundles/</loc>
-    <lastmod>2020-02-23</lastmod>
-  </url>  <url>
-    <loc>https://blog.fiteen.top/2016/new-in-xcode8/</loc>
-    <lastmod>2020-02-23</lastmod>
-  </url>  <url>
-    <loc>https://blog.fiteen.top/2019/oh-hpv/</loc>
-    <lastmod>2020-02-23</lastmod>
-  </url>  <url>
-    <loc>https://blog.fiteen.top/2020/red-black-tree/</loc>
-    <lastmod>2020-02-23</lastmod>
-  </url>  <url>
-    <loc>https://blog.fiteen.top/2018/review-experience/</loc>
-    <lastmod>2020-02-23</lastmod>
-  </url>  <url>
-    <loc>https://blog.fiteen.top/2018/set-up-sock5-or-http-proxy-for-git-on-mac/</loc>
-    <lastmod>2020-02-23</lastmod>
-  </url>  <url>
-    <loc>https://blog.fiteen.top/2019/solution-of-app-muti-channel-pack/</loc>
-    <lastmod>2020-02-23</lastmod>
-  </url>  <url>
-    <loc>https://blog.fiteen.top/2019/sorting-algorithm/</loc>
-    <lastmod>2020-02-23</lastmod>
-  </url>  <url>
-    <loc>https://blog.fiteen.top/2017/the-difference-between-the-atomic-and-nonatomic-attributes/</loc>
-    <lastmod>2020-02-23</lastmod>
-  </url>  <url>
-    <loc>https://blog.fiteen.top/2017/what-is-idfa/</loc>
-    <lastmod>2020-02-23</lastmod>
-  </url>  <url>
-    <loc>https://blog.fiteen.top/2017/xcode-clean/</loc>
     <lastmod>2020-02-23</lastmod>
   </url>
 </urlset>
