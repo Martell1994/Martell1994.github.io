@@ -1,18 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://blog.fiteen.top/2017/the-difference-between-the-atomic-and-nonatomic-attributes/</loc>
-    <lastmod>2020-04-16</lastmod>
-  </url>  <url>
-    <loc>https://blog.fiteen.top/2017/what-is-idfa/</loc>
-    <lastmod>2020-04-16</lastmod>
-  </url>  <url>
-    <loc>https://blog.fiteen.top/2017/xcode-clean/</loc>
-    <lastmod>2020-04-16</lastmod>
-  </url>  <url>
-    <loc>https://blog.fiteen.top/2016/xcode-code-snippets/</loc>
-    <lastmod>2020-04-16</lastmod>
-  </url>  <url>
     <loc>https://blog.fiteen.top/2017/ali-cloud-live-authentication-algorithm/</loc>
     <lastmod>2020-04-16</lastmod>
   </url>  <url>
@@ -128,6 +116,18 @@
     <lastmod>2020-04-16</lastmod>
   </url>  <url>
     <loc>https://blog.fiteen.top/2019/sorting-algorithm/</loc>
+    <lastmod>2020-04-16</lastmod>
+  </url>  <url>
+    <loc>https://blog.fiteen.top/2017/the-difference-between-the-atomic-and-nonatomic-attributes/</loc>
+    <lastmod>2020-04-16</lastmod>
+  </url>  <url>
+    <loc>https://blog.fiteen.top/2017/what-is-idfa/</loc>
+    <lastmod>2020-04-16</lastmod>
+  </url>  <url>
+    <loc>https://blog.fiteen.top/2017/xcode-clean/</loc>
+    <lastmod>2020-04-16</lastmod>
+  </url>  <url>
+    <loc>https://blog.fiteen.top/2016/xcode-code-snippets/</loc>
     <lastmod>2020-04-16</lastmod>
   </url>
 </urlset>
